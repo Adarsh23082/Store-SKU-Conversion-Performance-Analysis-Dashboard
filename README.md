@@ -36,8 +36,21 @@ The dashboard provides a detailed analysis of:
 ## 🛠 Tools & Technologies
 
 - **Power BI** – Data visualization and dashboard design.
-- **Excel/CSV** – Data pre-processing and transformation.
+- **SQL** – Data extraction and transformation (via `appfor bharat.sql`).
+- **Excel/CSV** – Data pre-processing and storage.
 - **DAX & Power Query** – For calculations and dynamic filtering.
+
+---
+
+## 🧾 SQL File Usage
+
+The file `appfor bharat.sql` was used to:
+- Extract raw transaction and product data from a relational database.
+- Join tables containing store, SKU, and conversion details.
+- Apply filtering and aggregation logic before importing into Power BI.
+- Ensure optimized and clean input for visual analysis.
+
+This helped streamline the ETL (Extract, Transform, Load) process for dashboard development.
 
 ---
 
@@ -48,30 +61,12 @@ The dashboard provides a detailed analysis of:
 - Visualization of revenue trends across conversion rate bins.
 - Summary KPIs for total revenue and average conversion rates.
 
----
 
-## 📷 Dashboard Snapshot
 
-![Dashboard Preview](./images/dashboard_preview.png)
-
----
-
-## 📁 File Structure
-
-```bash
-├── README.md
-├── PowerBI_Dashboard.pbix
-├── data/
-│   └── store_sku_data.csv
-└── images/
-    └── dashboard_preview.png
-```
 
 ---
 
 ## 📬 Contact
 
 **Adarshraj Maurya**  
-M.Sc. Mathematics & Scientific Computing  
-📧 adarshraj.email@example.com  
-🌐 [LinkedIn](https://www.linkedin.com/in/your-profile) | [Kaggle](https://www.kaggle.com/your-profile)
+M.Sc. Mathematics & Scientific Computing
